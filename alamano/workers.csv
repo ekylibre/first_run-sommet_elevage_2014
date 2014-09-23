@@ -1,0 +1,6 @@
+nom,First name,Last name,variant nomen,code,code place,date naissance,notes,prix unitaire,price indicator,user email
+Jim BATAILLE,Jim,BATAILLE,technician,CD,S01_D01,1982-10-01,,11.74,usage_duration,admin@ekylibre.org
+Brice TEXIER,Brice,TEXIER,technician,BT,S01_D01,1983-01-01,,11.74,usage_duration,
+David JOULIN,David,JOULIN,technician,DJ,S01_D01,1981-01-01,,11.74,usage_duration,
+Yvan JOULIN,Yvan,JOULIN,technician,YJ,S01_D01,1984-01-01,,11.74,usage_duration,
+Jean-Yves BRASLONG,Jean-Yves,BRASLONG,inseminator,JY,S01_D01,1984-01-01,,11.74,usage_duration,veto@ekylibre.org

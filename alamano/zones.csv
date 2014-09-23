@@ -1,0 +1,8 @@
+Name,Nature,Code,Code groupe,Code Place,Description
+Zone 1,settlement,S01,,,
+Zone 2,settlement,S02,,,
+Zone 3,settlement,S03,,,
+Zone 6,settlement,S06,,,
+Bureau,building_division,S01_D01,,S01,
+Réserve,building_division,S01_D02,,S01,
+Stockage blé,building_division,S01_D03,,S01,

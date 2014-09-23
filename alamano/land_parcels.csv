@@ -1,0 +1,6 @@
+Nom,Nature,Code,Shape Number,Ilot Code,Code Place,soil_nature,soil_depth (cm),available_water_capacity_per_area (l/m2)
+Petit champ,land_parcel,LP01,ZC01,1,,clay_limestone_soil,80,
+Grand champ,land_parcel,LP02,ZC02,2,,clay_limestone_soil,120,
+Bousseau,land_parcel,LP03,ZC03,3,,clay_limestone_soil,80,
+Raguenaud,land_parcel,LP04,ZC04,4,,clay_limestone_soil,80,
+Palet,land_parcel,LP05,ZC05,5,,sand_soil,180,
