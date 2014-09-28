@@ -1,5 +1,7 @@
 nom,variant nomen,code,code place,date naissance,marque,modèle,nom du propriétaire,indicateurs,notes,prix unitaire,indicateur de prix
 ,CUVE / SILO / RESERVE,,,,,,,,,,
+Tank Lait 3000,milk_tank,MILK_TANK_01,S02_D08,1995-01-01,,,,Population : 1 ; nominal_storable_net_volume : 3000liter,,0.5,usage_duration
+Tank Lait 1500,milk_tank,MILK_TANK_02,S02_D08,1995-01-01,,,,Population : 1 ; nominal_storable_net_volume : 1500liter,,0.5,usage_duration
 Cuve n°1,concrete_tank,TANK_01,S03,1995-01-01,,,,Population : 1 ;  nominal_storable_net_volume : 120hectoliter,,0.8,usage_duration
 Cuve n°2,fiberglass_tank,TANK_02,S03,1995-01-01,,,,Population : 1 ;  nominal_storable_net_volume : 740hectoliter,,0.8,usage_duration
 Silo Aliment Gauche,food_tank,TANK_1G,S03,1995-01-01,,,,Population : 1 ;  nominal_storable_net_volume : 10cubic_meter ;  nominal_storable_net_mass : 7ton,,0.8,usage_duration
@@ -13,9 +15,10 @@ Silo SAINT-PORCHAIRE COOP,grain_tank,,,,,,COOP,Population : 1,,,
 Silo PLASSAY COOP,grain_tank,,,,,,COOP,Population : 1,,,
 Cellule à grains,grain_tank,TANK_1E_S05,S03,1995-01-01,,,,Population : 1 ;  nominal_storable_net_volume : 40cubic_meter,,,
 ,TRACTEUR,,,,,,,,,,
-Tracteur JOHN DEERE,tractor,TRAC_JD,S02,1983-01-01,CASE-IH,175,,Population : 1 ;  Motor_power : 170ch,,26,usage_duration
-FENDT VARIO 930,tractor,FENDT_930,S02,2007-01-01,FENDT,930,,Population : 1 ;  Motor_power : 300ch,,44,usage_duration
-FENDT VARIO 926,tractor,FENDT_926,S02,2004-07-15,FENDT,926,,Population : 1 ;  Motor_power : 260 ch,,36,usage_duration
+Tracteur JOHN DEERE,tractor,TRAC_JD,S01_D04,1983-01-01,CASE-IH,175,,Population : 1 ;  Motor_power : 170ch,,26,usage_duration
+FENDT VARIO 930,tractor,FENDT_930,S01_D04,2007-01-01,FENDT,930,,Population : 1 ;  Motor_power : 300ch,,44,usage_duration
+FENDT VARIO 926,tractor,FENDT_926,S01_D04,2004-07-15,FENDT,926,,Population : 1 ;  Motor_power : 260 ch,,36,usage_duration
+533,tractor,IH_533,S01_D04,,,,,,,,
 ,MATERIEL DE PLANTATION,,,,,,,,,,
 Plantoir,manual_implanter,,S02,1999-10-01,,,,Population : 1,,0.27,usage_duration
 Machine à planter WAGNER Champion GPS,implanter,,S02,1999-10-01,,,ETA,Population : 1,,98.56,usage_duration
@@ -30,11 +33,11 @@ Boucheuse BERTOLASO,corker,,S02,2002-01-05,,,CAMION,Population : 1,,90,usage_du
 ,TRAVAIL DU SOL,,,,,,,,,,
 Charrue 4 socs,plow,PLOW_01,S02,,,,,Population : 1 ;  application_width : 1m,,18,usage_duration
 Charrue réversible 5 socs,plow,PLOW_02,S02,,,,,"Population : 1 ; application_width : 1,25m",,19.69,usage_duration
-Vibroculteur,superficial_plow,PLOW_03,S02,,,,,Population : 1 ;  application_width : 4m,,14,usage_duration
-Covercrop,superficial_plow,PLOW_04,S02,,,,CUMA,"Population : 1 ; application_width : 2,5m",,16,usage_duration
+Vibroculteur,superficial_plow,PLOW_03,S01_D04,,,,,Population : 1 ;  application_width : 4m,,14,usage_duration
+Covercrop,superficial_plow,PLOW_04,S01_D04,,,,CUMA,"Population : 1 ; application_width : 2,5m",,16,usage_duration
 Herse,superficial_plow,PLOW_05,S02,,,,CUMA,"Population : 1 ; application_width : 2,5m",,17,usage_duration
 Cultipacker,superficial_plow,PLOW_06,S02,,,,CUMA,"Population : 1 ; application_width : 2,5m",,4,usage_duration
-Bineuse,hoe,PLOW_07,S02,,,,,"Population : 1 ; application_width : 3,2m",,35,usage_duration
+Bineuse,hoe,PLOW_07,S01_D04,,,,,"Population : 1 ; application_width : 3,2m",,35,usage_duration
 ,EPANDAGE / PULVERISATION,,,,,,,,,,
 Semoir engrais centrifuge,spreader,VICON_RO_EDW,S02,1999-10-01,,,,Population : 1 ;  nominal_storable_net_volume : 3900l ;  application_width : 24m,,5.27,usage_duration
 Pulvérisateur tracté VICON,sprayer,VICON_IXTRAC_C40,S02,,VICON,,,Population : 1 ;  application_width : 24m ;  nominal_storable_net_volume : 4000l,,38,usage_duration
@@ -42,7 +45,7 @@ Pulvérisateur porté VICON,sprayer,VICON_IXTER_B13,S02,,VICON,,,Population : 1
 ,RECOLTE,,,,,,,,,,
 Presse balle carré moyenne densité,baler,,S02,,CASE-IH,,,Population : 1,,50,usage_duration
 Faucheuse,mower,,S02,,,,CUMA,"Population : 1 ; application_width : 3,2m",,49,usage_duration
-Andaineur,hay_rake,,S02,,,,CUMA,Population : 1 ;  application_width : 5m,,18,usage_duration
+Andaineur,hay_rake,ANDAI,S02,,,,CUMA,Population : 1 ;  application_width : 5m,,18,usage_duration
 Presse balle ronde,baler,,S02,,,,CUMA,Population : 1,,54,usage_duration
 CLASS 98 SL,reaper,,S02,,,,ETA,"Population : 1 ; application_width : 4,5m",,103,usage_duration
 GREGOIRE G6,grape_reaper,GREGOIRE_G6,S02,,,,ETA,"Population : 1 ; application_width : 2,5m",,88,usage_duration
@@ -50,13 +53,13 @@ PELLENC 8290,grape_reaper,PELLENC_8290,S02,,,,ETA,"Population : 1 ; applicatio
 Presse balle carré,baler,,S02,,,,ETA,Population : 1,,93,usage_duration
 ,TRANSPORT,,,,,,,,,,
 Remorque 11T,trailer,,S02,,,,,Population : 1 ;  nominal_storable_net_mass : 11000 kg,,0.68,usage_duration
-Remorque épandeur ,spreader_trailer,,S02,,,,,Population : 1 ;  nominal_storable_net_mass : 8000 kg,,8,usage_duration
-Remorque monocoque,trailer,,S02,,,,,Population : 1 ;  nominal_storable_net_mass : 8000 kg,,0.5,usage_duration
+Remorque épandeur ,spreader_trailer,EPANDEUR,S01_D04,,,,,Population : 1 ;  nominal_storable_net_mass : 8000 kg,,8,usage_duration
+Remorque monocoque,trailer,MONO_11,S01_D04,,,,,Population : 1 ;  nominal_storable_net_mass : 8000 kg,,0.5,usage_duration
 Benne vendange 60,grape_trailer,,S02,,,,,Population : 1 ;  nominal_storable_net_mass : 6000 kg,,0.5,usage_duration
 Gimbre pro 60,grape_trailer,,S02,,,,,Population : 1 ;  nominal_storable_net_mass : 6000 kg,,0.5,usage_duration
 ,ENTRETIEN,,,,,,,,,,
 Girobroyeur,mower,,S02,,,,,"Population : 1 ; application_width : 1,8m",,9,usage_duration
 ,ELEVAGE,,,,,,,,,,
-Désileuse,silage_distributor,,S02,,,,,Population : 1 ;  nominal_storable_net_volume : 1000l ;  nominal_storable_net_mass : 500kg,,,
+Désileuse,silage_distributor,DESIL,S01_D04,,,,,Population : 1 ;  nominal_storable_net_volume : 1000l ;  nominal_storable_net_mass : 500kg,,,
 Pailleuse,silage_distributor,,S02,,,,,Population : 1 ;  nominal_storable_net_volume : 3000l ;  nominal_storable_net_mass : 1500kg,,,
 Rabot 250,animal_housing_cleaner,,S02,,,,,"Population : 1 ; application_width : 2,5m",,,

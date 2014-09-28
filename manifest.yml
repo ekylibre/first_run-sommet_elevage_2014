@@ -4,7 +4,7 @@ currency: EUR                                    # Code monnaie
 country: fr                                      # Code pays
 language: fra                                    # Code langue
 map_measure_srid: 2154                           # Code référentiel spatial
-demo: false                                       # Mode démo (oui/non)
+demo: true                                       # Mode démo (oui/non)
 create_activities_from_telepac: false            # Création des activités uniquement à partir des fichiers TELEPAC
 company:
   last_name: Sommet de l'élevage                      # Nom
